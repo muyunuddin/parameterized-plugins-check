@@ -1,4 +1,4 @@
-big.exe :big3.o
-	gcc -o big.exe big3.o
-big3.o:big3.c
-	gcc -c big3.c
+big.exe :big2.o
+	gcc -o big.exe big2.o
+big3.o:big2.c
+	gcc -c big2.c
